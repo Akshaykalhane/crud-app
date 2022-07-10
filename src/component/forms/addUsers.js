@@ -73,7 +73,7 @@ const AddUser = (props) => {
 const handleSubmit=(e)=>{
     e.preventDefault()
     // console.log('form submitted')
-    if(!user.name || !user.username) return
+   // if(!user.name || !user.username) return
         setError(false)
         props.addUser(user);
         setUsers(initalFormState)
